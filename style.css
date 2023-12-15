@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  background-color: transparent;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+  }
+  html::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  html::-webkit-scrollbar-thumb {
+    background: #e53a29;
+    border-radius: 10px;
+  }
+
+/* navbar */
+#navbar {
+  background: transparent;
+  padding: 0px 9% 0px;
+}
+
+#logo img {
+  width: 190px;
+  padding: 0px 9% 0px;
+}
+.nav-item .nav-link {
+  transition: all 0.5sn;
+}
+.nav-item .nav-link:hover {
+  color: #e53a29;
+}
+
+/* home section */
+.home {
+  padding: 0 1px;
+ }
+.image-first img{
+    width: 500px;
+    margin: 50px;
+}
+
+.home .img {
+  flex: 1 1 300px;
+}
+.home .img img {
+  margin-left: 60px;
+}
+.home-content h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+/* serve section */
+
+.serve {
+    margin: 200px 10%;
+}
+.serve-text{
+    margin-top: 200px;
+}
+.serve .row .card img {
+  width: 200px;
+}
+/* menu section */
+.menu {
+    margin: 200px 10%; 
+}
+/* line */
+.line{
+    margin: 100px 0;
+}
+/* our menu section*/
+.ourmenu {
+  margin: 200px 10%;
+}
+/* order section*/
+.order {
+  margin: 200px 10%;
+;
+  
+}
+/* customer section*/
+.customer {
+  margin: 200px 10%;
+;
+}
+.customer-image img {
+  width: 60px;
+  border-radius: 10px;
+}
+/* contact section*/
+.contact {
+  margin: 200px 10%;    
+}
+/* footer section*/
+.footer {
+  margin: 30px 10%; 
+  }
+.footer img {
+  width: 250px;
+}
+.footer i {
+    transition: all 0.3s;
+  }
+.footer i:hover {
+  background-color: #e53a29;
+  color: white;
+}
