@@ -4,4 +4,4 @@
 
 Html,CSS,Bootstrap kullanıldı.
 
-<img src="../FreshFoodEbr.gif" alt="">
+<img src="../FreshFood.gif" alt="">
